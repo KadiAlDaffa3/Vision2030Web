@@ -45,7 +45,7 @@ if ($r && mysqli_num_rows($r) > 0) {
             <div class="event-details">
                 <h2><?php echo $eventName; ?></h2>
                 <p><?php echo $eventDescription; ?></p>
-                <a href="<?php echo $eventTweet; ?>" class="event-button"><?php echo $buttonText; ?></a>
+                <a target= "_blank" href="<?php echo $eventTweet; ?>" class="event-button"><?php echo $buttonText; ?></a>
             </div>
         </div>
     </div>
@@ -64,7 +64,7 @@ if ($r && mysqli_num_rows($r) > 0) {
                         <span class="event-date"><?php echo $row['date']; ?></span>
                         <h3><?php echo $row['name']; ?></h3>
                         <p><?php echo $row['description']; ?></p>
-                        <a href="<?php echo $tweet; ?>" class="event-link"><?php echo $row['buttonText']; ?></a>
+                        <a target="_blank" href="<?php echo $tweet; ?>" class="event-link"><?php echo $row['buttonText']; ?></a>
                     </div>
                 </div>
             <?php
