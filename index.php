@@ -23,6 +23,7 @@ include('DefinitionOfVision2030/2030.php');
     <link rel="stylesheet" href="css/master.min.css">
     <link rel="stylesheet" href="css/header1.css">
     <link rel="stylesheet" href="css/ssss.css">
+    <meta name="google-site-verification" content="r1sdJ2-TSnv5aYtUuVa1VVZnm9haTGlQLNxfrCbnstM" />
 
 
 <?php
